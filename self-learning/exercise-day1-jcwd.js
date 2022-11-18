@@ -96,3 +96,14 @@ let resistor = 10; //ohm
 let ubah = 10 / 1000; //ohm ke k ohm di bagi 1000
 
 console.log(`${resistor} ohm = ${ubah} kilo ohm`);
+
+//write a code of salary karyawan
+
+let karyawan = [golongan1 = 1, golongan2 = 2, golongan3 = 3];
+
+if(karyawan == 0){
+    console.log("Kelas A");
+}
+else{
+    console.log("Kelas B");
+}
