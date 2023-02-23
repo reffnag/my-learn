@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-navbar {
+  background-color: #333;
+}
+
+.ul-navbar {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 15px;
+  margin: 5px;
+}
+
+.li-navbar a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.li-navbar:hover {
+  background-color: #555;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+}
