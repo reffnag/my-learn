@@ -10,6 +10,9 @@ console.log(0xff); //hexadecimal
 console.log(0b1001); //biner
 console.log(0o10); //oktal
 
+//Nan
+console.log(Number("asd"));
+
 //data type boolean
 console.log(true);
 console.log(false);
@@ -18,6 +21,7 @@ console.log(false);
 console.log("Hello World Guys");
 console.log("OHH YEAHHH, oo");
 console.log("Hello" + " YOO");
+console.log(`Hello`);
 
 //variable(var, let, const)
 var name = "James";
@@ -76,3 +80,11 @@ console.log(Lulus); //AND
 console.log(!Lulus); // Unary !
 Lulus = LulusUjian || LulusKehadiran;
 console.log(Lulus); //OR
+
+//number string covertion
+console.log(parseInt("1")); //change string to int
+console.log(parseFloat("32")); //change string to float
+console.log(Number("12")); //change string to int/float
+const q = 1;
+const z = q.toString() + 1; //change number to string
+console.log(z);
