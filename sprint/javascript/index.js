@@ -88,3 +88,28 @@ console.log(Number("12")); //change string to int/float
 const q = 1;
 const z = q.toString() + 1; //change number to string
 console.log(z);
+
+//Array
+const arrayKosong = [];
+console.log(arrayKosong);
+//nambahin array
+arrayKosong.push(1, 2, 3);
+
+console.table(arrayKosong);
+console.log(arrayKosong[1]); //array index 1
+console.log(arrayKosong.length); //panjag array
+
+//delete array
+delete arrayKosong[0];
+console.log(arrayKosong);
+
+//array dalam array
+arrayKosong[0] = ["program", "javascript"];
+console.table(arrayKosong);
+
+//ganti array dalam array
+arrayKosong[0][1] = "js";
+console.table(arrayKosong);
+
+//OBJECT
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Table</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+        <col span="2" style="background-color: blue" />
+        <col style="background-color: pink" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th colspan="2">Nama</th>
+          <th>Nilai</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lenovo</td>
+          <td>Thinkpad</td>
+          <td>70</td>
+        </tr>
+        <tr>
+          <td>Asus</td>
+          <td>Vivobook</td>
+          <td>50</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td rowspan="2">Total</td>
+          <td>Jumlah</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td>Rata-rata</td>
+          <td>35</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Form</title>
+    <style>
+      /* table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      } */
+    </style>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td><label for="username">username :</label></td>
+          <td><input type="text" id="username" /></td>
+        </tr>
+        <tr>
+          <td><label for="password">password :</label></td>
+          <td><input type="password" id="password" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="radio" id="pria" name="gender" />
+            <label for="pria">pria</label>
+            <input type="radio" id="wanita" name="gender" />
+            <label for="wanita">wanita</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="checkbox" id="html" />
+            <label for="html">html</label>
+            <input type="checkbox" id="css" />
+            <label for="css">css</label>
+            <input type="checkbox" id="javascript" />
+            <label for="javascript">javascript</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <label>kontrak</label>
+            <select>
+              <option>1 tahun</option>
+              <option>2 tahun</option>
+              <option>3 tahun</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="cerita">motivasi kamu</label>
+          </td>
+          <td><textarea cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <button value="kirim">Kirim</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
