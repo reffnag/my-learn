@@ -1,0 +1,75 @@
+body {
+  background-color: #f9f5eb;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  padding: 10px;
+  background-color: #245953;
+}
+
+header h1 {
+  color: #f9f5eb;
+  font-size: 36px;
+  font-weight: bold;
+}
+nav {
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  background-color: #408e91;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #f9f5eb;
+}
+
+nav li:hover {
+  background-color: #e49393;
+  color: white;
+}
+main {
+  padding: 20px;
+}
+.judul {
+  font-size: 30px;
+}
+.about p {
+  margin-bottom: 5px;
+}
+section {
+  margin-top: 50px;
+}
+.experience table {
+  width: 100%;
+}
+.experience table,
+tr,
+th,
+td {
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+}
+
+footer {
+  background-color: #245953;
+}
+footer p {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  color: #f9f5eb;
+}
