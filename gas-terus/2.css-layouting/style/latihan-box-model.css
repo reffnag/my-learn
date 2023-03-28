@@ -73,3 +73,21 @@ footer p {
   padding: 20px;
   color: #f9f5eb;
 }
+
+.list-contact {
+  list-style-type: none;
+  font-size: 20px;
+}
+.list-contact li {
+  padding: 5px;
+}
+.list-contact a {
+  text-decoration: none;
+}
+
+.fa-linked {
+  color: dodgerblue;
+}
+.fa-whatsap {
+  color: #408e91;
+}
